@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "chiefybean.workspaces",
+  "name": "Workspaces (no layout click)",
+  "version": "1.0.0",
+  "author": "chiefybean",
+  "description": "Omarchy workspace indicators, with the active workspace no longer changing layout when clicked.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Workspaces.qml"
+  },
+  "barWidget": {
+    "displayName": "Workspaces (no layout click)",
+    "description": "Workspace numbers stay put on click; use Super + L to change layout.",
+    "category": "Compositor",
+    "allowMultiple": false,
+    "defaultSection": "left"
+  },
+  "omarchy": {
+    "clonedFrom": "omarchy.workspaces"
+  }
+}
