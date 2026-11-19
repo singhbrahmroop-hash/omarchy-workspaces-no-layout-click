@@ -24,22 +24,24 @@ Clicking the *other* workspace numbers still switches workspaces.
 ## Install
 
 ```bash
-omarchy plugin add https://github.com/OWNER/omarchy-workspaces-no-layout-click.git --enable --yes
+omarchy plugin add https://github.com/singhbrahmroop-hash/omarchy-workspaces-no-layout-click.git --enable --yes
 ```
-
-Replace `OWNER` with the GitHub username the repo is published under.
 
 If you already cloned the stock widget (`omarchy plugin clone omarchy.workspaces`),
 remove/disable that clone first so the bar doesn't have two workspaces widgets.
 
 You can also install manually: copy this folder to
-`~/.config/omarchy/plugins/chiefybean.workspaces/` and enable it with
-`omarchy plugin enable chiefybean.workspaces --section left`.
+`~/.config/omarchy/plugins/io.github.singhbrahmroop-hash.workspaces-no-layout-click/`
+and enable it with:
+
+```bash
+omarchy plugin enable io.github.singhbrahmroop-hash.workspaces-no-layout-click --section left
+```
 
 ## Remove / go back to stock
 
 ```bash
-omarchy plugin remove chiefybean.workspaces --yes
+omarchy plugin remove io.github.singhbrahmroop-hash.workspaces-no-layout-click --yes
 omarchy plugin clone omarchy.workspaces   # restores the stock clickable widget
 ```
 

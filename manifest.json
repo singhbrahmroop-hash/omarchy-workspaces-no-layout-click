@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "chiefybean.workspaces",
+  "id": "io.github.singhbrahmroop-hash.workspaces-no-layout-click",
   "name": "Workspaces (no layout click)",
   "version": "1.0.0",
-  "author": "chiefybean",
+  "author": "singhbrahmroop-hash",
   "description": "Omarchy workspace indicators, with the active workspace no longer changing layout when clicked.",
   "kinds": [
     "bar-widget"
