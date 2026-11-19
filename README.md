@@ -47,6 +47,11 @@ omarchy plugin clone omarchy.workspaces   # restores the stock clickable widget
 
 Removing the plugin does not touch your saved workspace layouts or keybindings.
 
+## Dependencies
+
+None beyond Omarchy/Quickshell itself. No extra packages, services, or network
+access are used.
+
 ## What changed
 
 Against Omarchy 4.5.0's `shell/plugins/bar/widgets/Workspaces.qml`:
