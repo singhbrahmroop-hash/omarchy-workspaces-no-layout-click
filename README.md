@@ -36,6 +36,15 @@ You can also install manually: copy this folder to
 `~/.config/omarchy/plugins/chiefybean.workspaces/` and enable it with
 `omarchy plugin enable chiefybean.workspaces --section left`.
 
+## Remove / go back to stock
+
+```bash
+omarchy plugin remove chiefybean.workspaces --yes
+omarchy plugin clone omarchy.workspaces   # restores the stock clickable widget
+```
+
+Removing the plugin does not touch your saved workspace layouts or keybindings.
+
 ## What changed
 
 Against Omarchy 4.5.0's `shell/plugins/bar/widgets/Workspaces.qml`:
